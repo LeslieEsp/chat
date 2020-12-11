@@ -27,7 +27,7 @@ export default function Input(props) {
                 />
 
                 <TouchableOpacity onPress={onSubmit}>
-                    <Icon name="send" type="fas fa-share" style={{color:"#fff"}}/>
+                    <Icon name="send" type="FontAwesome" style={{color:"#fff"}}/>
                 </TouchableOpacity>
             </Item>
 

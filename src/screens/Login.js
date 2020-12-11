@@ -14,7 +14,7 @@ export default function Login(props) {
         <SafeAreaView style={styles.container}>
             <StatusBar barStyle="light-content"/>
             <View>
-                <image source={logoApp} resizeMode="contain" style={styles.logo}/>
+                <Image source={logoApp} resizeMode="contain" style={styles.logo}/>
             </View>
             <Item>
                 <Input placeholder="Ingrese nombre de usuario"
